@@ -30,6 +30,9 @@ step 3. Install all the requirements:
  
 step 4. start writing the code, with standard file name as main.py
 
+## <b> ACS Flow </b>
+![image](https://github.com/Chandrakant817/Chat-with-your-PDF-using-Azure-Cognitive-Search-and-LangChain./assets/69152112/8121b08e-390d-4a23-aa6e-69a6e1213d02)
+
 ### <b> Steps: </b>
 1. Upload the PDF Files
 2. Extract the content from the PDF

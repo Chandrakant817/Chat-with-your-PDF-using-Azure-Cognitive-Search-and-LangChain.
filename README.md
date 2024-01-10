@@ -3,7 +3,10 @@ Chat with your PDF data using Azure Cognitive Search and LangChain.
 
 ## <b> About ACS </b>
 The Azure Cognitive Search LangChain integration, built in Python, provides the ability to chunk the documents, seamlessly connect an embedding model for document vectorization, store the vectorized contents in a predefined index, perform similarity search (pure vector), hybrid search and hybrid with semantic search. It also provides configurability to create your own index and apply scoring profiles to achieve better search accuracy. With LangChain, you can combine native workflows (indexing and querying) with non-native workflows (like chunking and embedding) to create an end-to-end similarity search solution.
+'''
+<b> mandatory requirement credentials </b>
 
+'''
 ## System Setup:
 Step 1. Create a virtual environment
   > conda create -p myenv python=3.9 -y

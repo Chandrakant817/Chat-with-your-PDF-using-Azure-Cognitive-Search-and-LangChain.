@@ -1,0 +1,17 @@
+The concept of hashtag#VectorSearch, or Nearest Neighbor Search, is central to the AI revolution, particularly in the realm of information retrieval and similarity search. 
+
+It involves translating the query and the items in a database into vectors in a high-dimensional space. These vectors are points that represent the characteristics or features of the data.
+
+Each item in the database is represented as a vector in a multi-dimensional space. These vectors are often derived from features of the data that can be quantified, such as the presence of certain words in a document or the pixels and their arrangement in an image.
+
+→ A user query is converted into a vector using the same feature representation as the database items.
+
+→ The system then computes the distance between the query vector and the database vectors to find the closest matches. The distance metric could be Euclidean, cosine similarity, or any other measure appropriate for the data and the context.
+
+→ The closest vectors (the nearest neighbors) to the query vector are deemed to be the most similar or relevant to the query.
+
+Vector Search enables efficient and effective searching through large datasets and is foundational to various applications like recommendation systems, image and speech recognition, and text analysis.
+
+SingleStore database supports both vector search and full-text search, helping developers get the best of both worlds. 
+
+Know more: https://lnkd.in/gaJekCQz

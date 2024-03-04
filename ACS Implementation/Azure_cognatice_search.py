@@ -63,6 +63,8 @@ def main():
             index_name=AZURE_COGNITIVE_SEARCH_INDEX_NAME,
             embedding_function=embeddings.embed_query
         )
+        
+        vector_store.add_documents(documents=docs)
 
         llm = AzureOpenAI(
             temperature=0,
